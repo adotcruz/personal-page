@@ -58,7 +58,7 @@ h1{
 
 nav{
 	background-color: #000000;
-	opacity: 0.88;
+	/*opacity: 0.88;*/
 	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
 	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
 	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
@@ -113,6 +113,16 @@ nav > li{
 }
 
 
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
 /*  about */
 
 .self-pic{
